@@ -19,6 +19,6 @@ spec:
         app: db1
     spec:
       containers:
-      - image: docker.io/httpd:latest
-        name: mysql
+      - image: ctsdemo.azurecr.io:
+        name: app
   
